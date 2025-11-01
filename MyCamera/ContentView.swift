@@ -78,7 +78,7 @@ struct ContentView: View {
                 ShareLink(item: shareImage, subject: nil, message: nil,
                           preview: SharePreview("Photo", image: shareImage)) {
                     // テキスト表示
-                    Text("SNSに投稿する")
+                    Text("SNSに投稿する.")
                     // 横幅いっぱい
                         .frame(maxWidth: .infinity)
                     // 高さ50ポイント指定
